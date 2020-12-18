@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Date    : 2020-11-20
-# Author  : Yuanbo Zhao (chaojunction@gmail.com)
 
 # ref: https://www.datacamp.com/community/tutorials/18-most-common-python-list-questions-learn-python
 
