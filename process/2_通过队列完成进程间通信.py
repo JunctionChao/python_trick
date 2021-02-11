@@ -3,7 +3,7 @@ import multiprocessing
 
 def enter_queue(q):
     data = [1, 2, 3, 4]
-    # 相队列中写入数据
+    # 往队列中写入数据
     for temp in data:
         q.put(temp)
 

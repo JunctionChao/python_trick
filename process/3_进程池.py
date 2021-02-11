@@ -16,5 +16,5 @@ if __name__ == "__main__":
 
     print("---start---")
     po.close() # 关闭进程池，关闭后po不再接受新的请求
-    po.join() # 等待po中所有子进程执行完成，必须放在close之后
+    po.join() # 主进程等待po中所有子进程执行完成，必须放在close之后
     print("---end---")
