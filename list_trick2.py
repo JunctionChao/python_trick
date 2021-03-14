@@ -81,3 +81,11 @@ for x in a:
         b_.remove(x)
         c.append(x)
 print(c) # [1, 1, 2, 3, 4]
+
+
+# 计算迭代器的长度
+sum((i for _ in range(8))) # 8
+
+# 读取文件行数
+with open("filename", "r+") as f:
+    print(sum(1 for line in f))
