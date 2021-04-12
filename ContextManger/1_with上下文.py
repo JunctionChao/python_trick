@@ -32,5 +32,5 @@ if __name__ == '__main__':
     with LookingGlass() as what:
         print('Alice, Kitty and Snowdrop') # pordwonS dna yttiK ,ecilA
         print(what) # YKCOWREBBAJ
-    # 执行__enter__方法，还原回 sys.stdout.write 方法
+    # 执行__exit__方法，还原回 sys.stdout.write 方法
     print(what) # JABBERWOCKY
